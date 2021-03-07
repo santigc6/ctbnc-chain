@@ -411,7 +411,7 @@ public class CTBNCTestFactory<TimeType extends Number & Comparable<TimeType>,Nod
 			throw new IllegalArgumentException("Error: null dataset value. It must be instanced.");
 		if( validColumns == null)
 			throw new IllegalArgumentException("Error: null valid columns argument. It must be instanced.");
-		
+			
 		Map<String,Set<String>> statesForNode = new TreeMap<String,Set<String>>();
 		
 		File[] listOfFiles;
