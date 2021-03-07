@@ -1,0 +1,2 @@
+CTBNC 1-> java -jar CTBNCToolkit.jar --v --CTBNC=CTBNC3-LL --validation=HO,0.75 --className=ExerciseMode --rPath=results/ data/rehab/ -> M0_CTBNC3-LL
+CTNB 2-> java -jar CTBNCToolkit.jar --v --CTBNC=CTNB --validation=HO,0.75 --className=ExerciseMode --rPath=results/ data/rehab/ -> M0_CTNB
