@@ -294,7 +294,7 @@ public class CTBNClassifierFactory implements IModelFactory<CTBNClassifier, Doub
 		
 		CTDiscreteNode classNode = new CTDiscreteNode(nodeIndexing.getClassName(), statesForNode.get(nodeIndexing.getClassName()), true); // Class Node
 		nodesSet.add(classNode);
-
+		
 		Iterator<String> keys = statesForNode.keySet().iterator();
 		while(keys.hasNext()) {
 			String nodeName = keys.next();
@@ -307,7 +307,7 @@ public class CTBNClassifierFactory implements IModelFactory<CTBNClassifier, Doub
 		}
 		
 		CTBNClassifier bnModel = new CTBNClassifier(nodeIndexing, "NaiveBayes", nodesSet);
-		
+
 		return bnModel;
 	}
 

@@ -1,0 +1,9 @@
+Modifiers:
+--v
+--CTBNC=CTBNC3-LL
+--validation=HO,0.75
+--className=ExerciseMode
+--rPath=results/
+
+Data path:
+data/rehab/

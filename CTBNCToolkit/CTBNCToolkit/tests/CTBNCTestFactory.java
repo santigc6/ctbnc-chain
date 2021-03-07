@@ -411,7 +411,7 @@ public class CTBNCTestFactory<TimeType extends Number & Comparable<TimeType>,Nod
 			throw new IllegalArgumentException("Error: null dataset value. It must be instanced.");
 		if( validColumns == null)
 			throw new IllegalArgumentException("Error: null valid columns argument. It must be instanced.");
-		
+
 		Map<String,Set<String>> statesForNode = new TreeMap<String,Set<String>>();
 		
 		File[] listOfFiles;
@@ -425,17 +425,17 @@ public class CTBNCTestFactory<TimeType extends Number & Comparable<TimeType>,Nod
 			throw new IllegalArgumentException("Error: the input to load must be a file or a directory.");
 		}
 		ext = ext.toLowerCase();
-		
+
 		// For each file
 		NodeIndexing nodeIndexing = null;
 		for(int f = 0; f < listOfFiles.length; ++f) {
-			
 			// Jumps all the file that have not the right extension
 			if( (!ext.equals("*")) && (!listOfFiles[f].getName().toLowerCase().endsWith(ext)))
 				continue;
 			
 			// Load the file
 			CSVReader reader = new CSVReader(new FileReader(listOfFiles[f].getAbsolutePath()), separator);
+
 			// Read the file
 		    String [] firstLine,nextLine;
 		    List<Double> times = new Vector<Double>();
@@ -445,7 +445,7 @@ public class CTBNCTestFactory<TimeType extends Number & Comparable<TimeType>,Nod
 		    int trjCounterIdx = -1;
 		    String counterState = null;
 		    int trjCounter = 1;
-		    
+
 		    // Read the header and set the index of the state, time and, trajectories breaker column (if exist)
 		    boolean setValidColumns = false;
 		    if( validColumns.isEmpty()) {							// if empty, the valid columns are all the column except the class, the time and the trajectory separator columns
@@ -550,8 +550,8 @@ public class CTBNCTestFactory<TimeType extends Number & Comparable<TimeType>,Nod
 			for(int i = 1; i <= nClusters; ++i)
 				clusters.add("" + i);
 			statesForNode.put(classNodeName, clusters);
-		}			
-
+		}
+		
 		return CTBNClassifierFactory.getNaiveBayesFromDataset(nodeIndexing, statesForNode);
 		
 	}
