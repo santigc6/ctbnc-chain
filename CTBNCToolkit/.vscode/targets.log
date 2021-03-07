@@ -1,0 +1,345 @@
+C:\Program Files (x86)\GnuWin32\bin\make.exe all -f C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Este es software libre; consulte en el c�digo fuente las condiciones de copia.
+# NO hay garant�a; ni siquiera para MERCANTIBILIDAD o EL CUMPLIMIENTO DE
+# ALG�N PROP�SITO PARTICULAR.
+
+ # Este programa fue construido para i386-pc-mingw32
+ 
+
+# Base de datos del Make, mostrada en Sun Mar 07 15:32:30 2021
+
+# Variables
+
+# autom�tica/o
+<D = $(patsubst %/,%,$(dir $<))
+# autom�tica/o
+?F = $(notdir $?)
+# entorno
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+# makefile
+MAKEFLAGS = Rrqp
+# entorno
+VSCODE_LOG_NATIVE = false
+# entorno
+NVCUDASAMPLES9_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.0
+# autom�tica/o
+?D = $(patsubst %/,%,$(dir $?))
+# autom�tica/o
+@D = $(patsubst %/,%,$(dir $@))
+# entorno
+HOMEDRIVE = C:
+# autom�tica/o
+@F = $(notdir $@)
+# autom�tica/o
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/berna/Downloads/MUIA/TFM/ctbnc-chain/CTBNCToolkit
+# por defecto
+SHELL := sh.exe
+# entorno
+ProgramFiles(x86) = C:\Program Files (x86)
+# entorno
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{},"_languagePackSupport":true}
+# entorno
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 1):
+MAKEFILE_LIST :=  C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile
+# entorno
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# entorno
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\berna\AppData\Roaming\Code\CachedData\622cb03f7e070a9670c94bae1a45d78d7181fbd4
+# entorno
+TMP = C:\Users\berna\AppData\Local\Temp
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 6):
+SOURCES = ./CTBNCToolkit/BinaryDecider.java ./CTBNCToolkit/ClassificationResults.java ./CTBNCToolkit/ClassificationTransition.java ./CTBNCToolkit/ClassifyAlgorithm.java ./CTBNCToolkit/CTBNCClassifyAlgorithm.java ./CTBNCToolkit/CTBNClassifier.java ./CTBNCToolkit/CTBNCLocalStructuralLearning.java ./CTBNCToolkit/CTBNCParameterLLAlgorithm.java ./CTBNCToolkit/CTDiscreteNode.java ./CTBNCToolkit/CTTrajectory.java ./CTBNCToolkit/CTTransition.java ./CTBNCToolkit/DiscreteModel.java ./CTBNCToolkit/DiscreteNode.java ./CTBNCToolkit/GenericLearningResults.java ./CTBNCToolkit/IClassificationResult.java ./CTBNCToolkit/IClassificationTransition.java ./CTBNCToolkit/IClassifyAlgorithm.java ./CTBNCToolkit/IClassifyDecider.java ./CTBNCToolkit/ICTClassifier.java ./CTBNCToolkit/IDiscreteNode.java ./CTBNCToolkit/ILearningAlgorithm.java ./CTBNCToolkit/ILearningResults.java ./CTBNCToolkit/IModel.java ./CTBNCToolkit/INode.java ./CTBNCToolkit/ITrajectory.java ./CTBNCToolkit/ITransition.java ./CTBNCToolkit/LearningAlgorithm.java ./CTBNCToolkit/MultipleCTBNC.java ./CTBNCToolkit/MultipleCTBNCLearningAlgorithm.java ./CTBNCToolkit/MultipleCTBNCLearningResults.java ./CTBNCToolkit/Node.java ./CTBNCToolkit/NodeIndexing.java ./CTBNCToolkit/StatisticalTables.java ./CTBNCToolkit/StructuralLearningScoringFormulae.java ./CTBNCToolkit/SufficientStatistics.java ./CTBNCToolkit/clustering/ClusteringAlgorithm.java ./CTBNCToolkit/clustering/ClusteringResults.java ./CTBNCToolkit/clustering/CTBNClusteringParametersLLAlgorithm.java ./CTBNCToolkit/clustering/IClusteringAlgorithm.java ./CTBNCToolkit/clustering/IStopCriterion.java ./CTBNCToolkit/clustering/StandardStopCriterion.java ./CTBNCToolkit/frontend/CommandLine.java ./CTBNCToolkit/frontend/Main.java ./CTBNCToolkit/optimization/CLLHillClimbingFactory.java ./CTBNCToolkit/optimization/CTBNCHillClimbingIndividual.java ./CTBNCToolkit/optimization/ICache.java ./CTBNCToolkit/optimization/ICacheElement.java ./CTBNCToolkit/optimization/ICTBNCHillClimbingFactory.java ./CTBNCToolkit/optimization/IElementFactory.java ./CTBNCToolkit/optimization/ILocalSearchIndividual.java ./CTBNCToolkit/optimization/IOptimizationAlgorithm.java ./CTBNCToolkit/optimization/IOptimizationElement.java ./CTBNCToolkit/optimization/LLHillClimbingFactory.java ./CTBNCToolkit/optimization/LRUCache.java ./CTBNCToolkit/performances/ClassificationStandardPerformances.java ./CTBNCToolkit/performances/ClassificationStandardPerformancesFactory.java ./CTBNCToolkit/performances/ClusteringExternalPerformances.java ./CTBNCToolkit/performances/ClusteringExternalPerformancesFactory.java ./CTBNCToolkit/performances/IAggregatePerformances.java ./CTBNCToolkit/performances/IAggregatePerformancesFactory.java ./CTBNCToolkit/performances/IClassificationAggregatePerformances.java ./CTBNCToolkit/performances/IClassificationPerformances.java ./CTBNCToolkit/performances/IClassificationSingleRunPerformances.java ./CTBNCToolkit/performances/IExternalClusteringAggregatePerformances.java ./CTBNCToolkit/performances/IExternalClusteringPerformances.java ./CTBNCToolkit/performances/IExternalClusteringSingleRunPerformances.java ./CTBNCToolkit/performances/IPerformances.java ./CTBNCToolkit/performances/ISingleRunPerformances.java ./CTBNCToolkit/performances/ISingleRunPerformancesFactory.java ./CTBNCToolkit/performances/MacroAvgAggregatePerformances.java ./CTBNCToolkit/performances/MacroAvgExternalClusteringAggregatePerformances.java ./CTBNCToolkit/performances/MicroAvgAggregatePerformances.java ./CTBNCToolkit/performances/MicroAvgExternalClusteringAggregatePerformances.java ./CTBNCToolkit/performances/MicroMacroClassificationPerformances.java ./CTBNCToolkit/performances/MicroMacroClassificationPerformancesFactory.java ./CTBNCToolkit/performances/MicroMacroClusteringPerformances.java ./CTBNCToolkit/performances/MicroMacroClusteringPerformancesFactory.java ./CTBNCToolkit/tests/CTBNClassifierFactory.java ./CTBNCToolkit/tests/CTBNCTestFactory.java ./CTBNCToolkit/tests/GenericTestResults.java ./CTBNCToolkit/tests/IModelFactory.java ./CTBNCToolkit/tests/ITestFactory.java ./CTBNCToolkit/tests/ITestResults.java ./CTBNCToolkit/tests/validators/BaseValidationMethod.java ./CTBNCToolkit/tests/validators/ClusteringInSample.java ./CTBNCToolkit/tests/validators/CrossValidation.java ./CTBNCToolkit/tests/validators/HoldOut.java ./CTBNCToolkit/tests/validators/IValidationMethod.java
+# entorno
+VSCODE_VERBOSE_LOGGING = true
+# entorno
+SystemDrive = C:
+# entorno
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+# entorno
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ddbe8090-babe-45cf-9a88-104cd2780f40-sock
+# entorno
+VSCODE_CWD = C:\Users\berna\AppData\Local\Programs\Microsoft VS Code
+# entorno
+SystemRoot = C:\WINDOWS
+# entorno
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\cuda\bin;C:\Program Files\Google Protobuf\bin;C:\Program Files (x86)\sbt\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\berna\AppData\Local\Microsoft\WindowsApps;C:\Users\berna\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\berna\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 4):
+JAR_FLAGS = cvfm
+# entorno
+PROCESSOR_ARCHITECTURE = x86
+# entorno
+USERPROFILE = C:\Users\berna
+# entorno
+ALLUSERSPROFILE = C:\ProgramData
+# entorno
+ComSpec = C:\WINDOWS\system32\cmd.exe
+# entorno
+VSCODE_LOG_STACK = false
+# entorno
+NUMBER_OF_PROCESSORS = 12
+# entorno
+ELECTRON_RUN_AS_NODE = 1
+# por defecto
+.FEATURES := target-specific order-only second-expansion else-if archives
+# entorno
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# entorno
+ProgramW6432 = C:\Program Files
+# autom�tica/o
+%F = $(notdir $%)
+# entorno
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11204_MMKCYBCNOWUXKAPR
+# entorno
+VSCODE_PIPE_LOGGING = true
+# entorno
+COMPUTERNAME = DESKTOP-JMUNCDC
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 2):
+JC_FLAGS = 
+# entorno
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.0
+# entorno
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# entorno
+USERNAME = berna
+# entorno
+PUBLIC = C:\Users\Public
+# entorno
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 3):
+JAR = jar
+# entorno
+CommonProgramW6432 = C:\Program Files\Common Files
+# entorno
+ProgramData = C:\ProgramData
+# entorno
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# entorno
+LOGONSERVER = \\DESKTOP-JMUNCDC
+# entorno
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# entorno
+USERDOMAIN = DESKTOP-JMUNCDC
+# por defecto
+MAKE = $(MAKE_COMMAND)
+# por defecto
+MAKECMDGOALS := all
+# entorno
+SBT_HOME = C:\Program Files (x86)\sbt\
+# entorno
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_241
+# por defecto
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# entorno
+OneDrive = C:\Users\berna\OneDrive
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 1):
+JC = javac
+# autom�tica/o
+%D = $(patsubst %/,%,$(dir $%))
+# entorno
+DriverData = C:\Windows\System32\Drivers\DriverData
+# entorno
+LOCALAPPDATA = C:\Users\berna\AppData\Local
+# por defecto
+MAKE_COMMAND := C:/Program Files (x86)/GnuWin32/bin/make
+# entorno
+PROCESSOR_ARCHITEW6432 = AMD64
+# entorno
+OneDriveConsumer = C:\Users\berna\OneDrive
+# por defecto
+.VARIABLES := 
+# autom�tica/o
+*F = $(notdir $*)
+# entorno
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# entorno
+OS = Windows_NT
+# entorno
+VSCODE_IPC_HOOK = \\.\pipe\ba4f3b5239d8bceefd8c0f172c939b84-1.53.2-main-sock
+# entorno
+PYTHONPATH = C:\Users\berna\Documents\TensorFlow\models\research;C:\Users\berna\Documents\TensorFlow\models\research\slim;C:\Users\berna\Documents\TensorFlow\models\research\object_detection;
+# entorno
+HOMEPATH = \Users\berna
+# entorno
+PROMPT = $P$G
+# entorno
+MFLAGS = -Rrqp
+# autom�tica/o
+*D = $(patsubst %/,%,$(dir $*))
+# entorno
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# autom�tica/o
++D = $(patsubst %/,%,$(dir $+))
+# entorno
+windir = C:\WINDOWS
+# autom�tica/o
++F = $(notdir $+)
+# por defecto
+SUFFIXES := 
+# entorno
+APPDATA = C:\Users\berna\AppData\Roaming
+# entorno
+TEMP = C:\Users\berna\AppData\Local\Temp
+# por defecto
+MAKEFILES := 
+# autom�tica/o
+<F = $(notdir $<)
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 96):
+MANIFEST = MANIFEST.MF
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 5):
+LIBS = ./lib/commons-math3-3.0.jar:./lib/opencsv-2.3.jar:./lib/commons-io-2.8.0.jar:./lib/commons-fileupload-1.4.jar
+# autom�tica/o
+^F = $(notdir $^)
+# entorno
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0
+# entorno
+CUDA_PATH_V9_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0
+# entorno
+ProgramFiles = C:\Program Files (x86)
+# entorno
+SESSIONNAME = Console
+# entorno
+PROCESSOR_REVISION = 9e0a
+# entorno
+MAKELEVEL := 0
+# makefile (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', l�nea 95):
+OBJECTS = $(SOURCES:.java=.class)
+# entorno
+PROCESSOR_LEVEL = 6
+# entorno
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# entorno
+VSCODE_PID = 11204
+# entorno
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-JMUNCDC
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=103/1024=10%, Rehash=0, Colisiones=12/129=9%
+
+# Valores de variables espec�ficas al patr�n
+
+# No hay valores de variables espec�ficas al patr�n.
+
+# Directorios
+
+# %USERPROFILE%\AppData\Local\Microsoft\WindowsApps: podr�a no estar establecido.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp (llave C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/libnvvp, mtime 1580764487): 14 archivos, no imposibilidades.
+# C:\Users\berna\AppData\Local\Programs\Microsoft VS Code\bin (llave C:/Users/berna/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1613987626): 4 archivos, no imposibilidades.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (llave C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1602728767): 32 archivos, no imposibilidades.
+# C:\Windows\System32\Wbem (llave C:/Windows/System32/Wbem, mtime 1610589127): 172 archivos, no imposibilidades.
+# . (llave c:/Users/berna/Downloads/MUIA/TFM/ctbnc-chain/CTBNCToolkit, mtime 1614961284): 10 archivos, no imposibilidades.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64 (llave C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/extras/CUPTI/libx64, mtime 1580764435): 4 archivos, no imposibilidades.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (llave C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1534171426): 10 archivos, no imposibilidades.
+# C:\Program Files (x86)\sbt\bin (llave C:/Program Files (x86)/sbt/bin, mtime 1585144960): 6 archivos, no imposibilidades.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin (llave C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/bin, mtime 1580764518): 44 archivos, no imposibilidades.
+# C:\WINDOWS\System32\OpenSSH\: podr�a no estar establecido.
+# C:\Users\berna\AppData\Local\GitHubDesktop\bin (llave C:/Users/berna/AppData/Local/GitHubDesktop/bin, mtime 1582387881): 4 archivos, no imposibilidades.
+# C:\Program Files\Google Protobuf\bin (llave C:/Program Files/Google Protobuf/bin, mtime 1580681115): 3 archivos, no imposibilidades.
+# C:\Users\berna\AppData\Local\Microsoft\WindowsApps (llave C:/Users/berna/AppData/Local/Microsoft/WindowsApps, mtime 1614162833): 14 archivos, no imposibilidades.
+# C:\Windows (llave C:/Windows, mtime 1615077754): 130 archivos, no imposibilidades.
+# C:\Program Files\Java\jdk1.8.0_241\bin (llave C:/Program Files/Java/jdk1.8.0_241/bin, mtime 1585088921): 56 archivos, no imposibilidades.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\cuda\bin (llave C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/cuda/bin, mtime 1580767139): 3 archivos, no imposibilidades.
+# C:\Windows\system32 (llave C:/Windows/system32, mtime 1615077787): 3061 archivos, no imposibilidades.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (llave C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1571591020): 5 archivos, no imposibilidades.
+
+# 3572 archivos, no imposibilidades en 19 directorios.
+
+# Reglas impl�citas.
+
+# No hay reglas impl�citas.
+
+# Archivos
+
+all:
+#  Objetivo de l�nea de instrucciones.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  rama del patr�n impl�cita/est�tica: `'
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  Necesita ser actualizado (la opci�n -q est� activa).
+# autom�tica/o
+# @ := all
+# autom�tica/o
+# % := 
+# autom�tica/o
+# * := 
+# autom�tica/o
+# + := 
+# autom�tica/o
+# | := 
+# autom�tica/o
+# < := 
+# autom�tica/o
+# ^ := 
+# autom�tica/o
+# ? := 
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=8/32=25%, Rehash=0, Colisiones=3/14=21%
+#  comandos para ejecutar (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', linea 99):
+	$(JC) $(JC_FLAGS) -classpath $(LIBS) $(SOURCES)
+	
+
+# No es un objetivo:
+.DEFAULT:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2021-02-23 00:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+.SUFFIXES:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+clean:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', linea 105):
+	$(RM) ./CTBNCToolkit/*.class
+	$(RM) ./CTBNCToolkit/clustering/*.class
+	$(RM) ./CTBNCToolkit/frontend/*.class
+	$(RM) ./CTBNCToolkit/optimization/*.class
+	$(RM) ./CTBNCToolkit/performances/*.class
+	$(RM) ./CTBNCToolkit/tests/*.class
+	$(RM) ./CTBNCToolkit/tests/validators/*.class
+	
+
+jar:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `C:\Users\berna\Downloads\MUIA\TFM\java2python\CTBNCToolkit-master\makefile', linea 102):
+	$(JAR) $(JAR_FLAGS) CTBNCToolkit.jar $(MANIFEST) $(OBJECTS)
+	
+
+# estad�sticas de la tabla de hash de los archivos:
+# Carga=6/1024=1%, Rehash=0, Colisiones=0/19=0%
+# Rutas de b�squeda VPATH
+
+# No hay rutas de b�squeda `vpath'.
+
+# No hay ruta de b�squeda general (variable `VPATH').
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4021 / max = 4021 / min = 4021 / avg = 4021
+
+# Se termina la base de datos de Make en Sun Mar 07 15:32:30 2021
+
+ 
