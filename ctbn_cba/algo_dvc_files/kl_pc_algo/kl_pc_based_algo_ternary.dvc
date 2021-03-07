@@ -1,0 +1,28 @@
+md5: 67187e7764b9f36b95d3e18a81611c03
+cmd: python3 code/kl_pc_algo.py code/ternary_experiment.json
+wdir: ../..
+deps:
+- md5: 6f15c4ab751d81193ca40f4390e7b3c0
+  path: code/kl_pc_algo.py
+- md5: 334b0975ebb6a13019201da3d34f3850
+  path: code/ternary_experiment.json
+- md5: f51a37698c5c3b84e93d2f9dc19c6926
+  path: data/networks_and_trajectories_ternary_data_3.json
+- md5: 8bc7335584316986a2c1e7dd53fc0b42
+  path: data/networks_and_trajectories_ternary_data_4.json
+- md5: e1222d5e6d0e8fa55ce3b844b6a7a0a5
+  path: data/networks_and_trajectories_ternary_data_5.json
+- md5: 6429d5146b43c6506cc7de5619616d32
+  path: data/networks_and_trajectories_ternary_data_6.json
+- md5: 3d29578a2c09dec95cb10ca3964b20b6
+  path: data/networks_and_trajectories_ternary_data_10.json
+- md5: ed9a5b90dc0883b78dfd5064e2f94b87
+  path: data/networks_and_trajectories_ternary_data_15.json
+- md5: de3bff8745eddd31f27e391c898f851e
+  path: data/networks_and_trajectories_ternary_data_20.json
+outs:
+- md5: 850c8265a29ab307d68df3b2886771f4
+  path: metrics/kl_pc_based_ternary_data.json
+  cache: false
+  metric: true
+  persist: false

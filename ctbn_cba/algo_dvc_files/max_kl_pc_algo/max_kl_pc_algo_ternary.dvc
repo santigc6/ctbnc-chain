@@ -1,0 +1,30 @@
+md5: 7b5142445373175533027983ab46b0ab
+cmd: Rscript code/max_kl_pc_algo.R code/ternary_experiment.R 3 4 5 6 10
+wdir: ../..
+deps:
+- md5: 46467007433fbe6c555a1d57bf99b756
+  path: code/max_kl_pc_algo.R
+- md5: 1c0890933bb6d2a948890e4b74c197db
+  path: code/ternary_experiment.R
+- md5: 97ced95f64f4d5cc0b27dfee9b8c43a1
+  path: code/experiment_utils.R
+- md5: 9c02906b37c7207700a72028fd56c2c1
+  path: code/utils_algo.R
+- md5: 923a36c1d8ebc4384c1c95a5db6b4d4d
+  path: data/networks_and_trajectories_ternary_data_3.RData
+- md5: c1416468032ea48f24339d2ac34f4592
+  path: data/networks_and_trajectories_ternary_data_4.RData
+- md5: d81bb0dbf5114e876566bd5babe32533
+  path: data/networks_and_trajectories_ternary_data_5.RData
+- md5: bc979b25afcbd3b650a6f2c4fb5455ef
+  path: data/networks_and_trajectories_ternary_data_6.RData
+- md5: fe22b177d86b50f6e3cb04bb5bc9140e
+  path: data/networks_and_trajectories_ternary_data_10.RData
+- md5: dfea8106c5585d58b6cbd45ec4b3adc4
+  path: data/networks_and_trajectories_ternary_data_15.RData
+outs:
+- md5: 87ad76f211e4f9b9f43aa1289adad4a4
+  path: metrics/max_kl_pc_based_ternary_data.json
+  cache: false
+  metric: true
+  persist: false

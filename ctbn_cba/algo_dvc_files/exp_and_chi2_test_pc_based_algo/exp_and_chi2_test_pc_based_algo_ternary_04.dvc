@@ -1,0 +1,28 @@
+md5: 745b923c025e90d03a4a4f1205a5a0c0
+cmd: python3 code/exp_and_chi2_test_pc_based_algo.py code/ternary_experiment_04.json
+wdir: ../..
+deps:
+- md5: d1efde8dc1134798ea6d684a730b22c0
+  path: code/exp_and_chi2_test_pc_based_algo.py
+- md5: 3c345e1d1557eb9c9283bec772345975
+  path: code/ternary_experiment_04.json
+- md5: 9ff57559837246282c6421145e59947d
+  path: data/networks_and_trajectories_ternary_data_04_3.json
+- md5: e841b5e68a2dfe48c4b7133e38de9fde
+  path: data/networks_and_trajectories_ternary_data_04_4.json
+- md5: e07d630cbd08bc224dd9a26ad8af5880
+  path: data/networks_and_trajectories_ternary_data_04_5.json
+- md5: d109f8cd3bd7b7ce73dd07835bbef533
+  path: data/networks_and_trajectories_ternary_data_04_6.json
+- md5: f7c19b8c6abecc3468253de1afd14010
+  path: data/networks_and_trajectories_ternary_data_04_10.json
+- md5: d5c6cdd66aecc83f74eb9a8a020f49ee
+  path: data/networks_and_trajectories_ternary_data_04_15.json
+- md5: 0a15abcccb5c28b0817fa9994cc2427d
+  path: data/networks_and_trajectories_ternary_data_04_20.json
+outs:
+- md5: c520516eb3fd90b7023060dd0fbe35d4
+  path: metrics/exp_and_chi2_test_pc_based_ternary_data_04.json
+  cache: false
+  metric: true
+  persist: false

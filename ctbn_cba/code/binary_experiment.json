@@ -1,0 +1,10 @@
+{"datasets_path":[
+        "data/networks_and_trajectories_binary_data_3.json",
+        "data/networks_and_trajectories_binary_data_4.json",
+        "data/networks_and_trajectories_binary_data_5.json",
+        "data/networks_and_trajectories_binary_data_6.json",
+        "data/networks_and_trajectories_binary_data_10.json",
+        "data/networks_and_trajectories_binary_data_15.json",
+        "data/networks_and_trajectories_binary_data_20.json"],
+  "subsamples": [100,200,300],
+  "cardinality":"binary_data"}

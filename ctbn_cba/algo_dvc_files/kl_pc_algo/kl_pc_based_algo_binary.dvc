@@ -1,0 +1,28 @@
+md5: 2670e1b00f4a049b4028313fe7c966e7
+cmd: python3 code/kl_pc_algo.py code/binary_experiment.json
+wdir: ../..
+deps:
+- md5: 4823c027b9d09f723290687f619894ad
+  path: code/kl_pc_algo.py
+- md5: a35d19be03733594735c1a84e3750aa2
+  path: code/binary_experiment.json
+- md5: 53aee6dad13472bc55373ab63057ad6f
+  path: data/networks_and_trajectories_binary_data_3.json
+- md5: c499077324b2f311204aaab688f8f623
+  path: data/networks_and_trajectories_binary_data_4.json
+- md5: 6c36d2ed5473a2b96d423088b3287cb1
+  path: data/networks_and_trajectories_binary_data_5.json
+- md5: 3e841745cf55e9d28406113b3428b3c9
+  path: data/networks_and_trajectories_binary_data_6.json
+- md5: f07a2340bff8920f6038839f26293b32
+  path: data/networks_and_trajectories_binary_data_10.json
+- md5: 273ace0e5cca7b90cb2eb329441e15ad
+  path: data/networks_and_trajectories_binary_data_15.json
+- md5: 471dceba4e679768a0c9ac696e68eac8
+  path: data/networks_and_trajectories_binary_data_20.json
+outs:
+- md5: 77433bf7514a7a071d93e053915d7259
+  path: metrics/kl_pc_based_binary_data.json
+  cache: false
+  metric: true
+  persist: false

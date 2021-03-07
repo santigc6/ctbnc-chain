@@ -1,0 +1,10 @@
+{"datasets_path":[
+        "data/networks_and_trajectories_ternary_data_01_3.json",
+        "data/networks_and_trajectories_ternary_data_01_4.json",
+        "data/networks_and_trajectories_ternary_data_01_5.json",
+        "data/networks_and_trajectories_ternary_data_01_6.json",
+        "data/networks_and_trajectories_ternary_data_01_10.json",
+        "data/networks_and_trajectories_ternary_data_01_15.json",
+        "data/networks_and_trajectories_ternary_data_01_20.json"],
+  "subsamples": [100,200,300],
+  "cardinality":"ternary_data_01"}

@@ -1,0 +1,30 @@
+md5: eaddc442471fdee6956cbfd2ef1aa49a
+cmd: Rscript code/score_based_algo.R code/binary_experiment_02.R 3 4 5 6 10 15 20
+wdir: ../..
+deps:
+- md5: bcdcfcf253777e6fc1677b5bd4bc04c7
+  path: code/score_based_algo.R
+- md5: 97ced95f64f4d5cc0b27dfee9b8c43a1
+  path: code/experiment_utils.R
+- md5: e337504f414631d3a36b578ca3e1056d
+  path: code/binary_experiment_02.R
+- md5: ac3ac7efc2181d1ee1b8625a21e50103
+  path: data/networks_and_trajectories_binary_data_02_3.RData
+- md5: b49b05193685e314e42f2b0b12440762
+  path: data/networks_and_trajectories_binary_data_02_4.RData
+- md5: 246abe09e6f3b4ad16f71442b876f34e
+  path: data/networks_and_trajectories_binary_data_02_5.RData
+- md5: e8489940391e157a723d9d296bfa08ec
+  path: data/networks_and_trajectories_binary_data_02_6.RData
+- md5: c9072388e12f40bd7b192751c54ffecf
+  path: data/networks_and_trajectories_binary_data_02_10.RData
+- md5: a060603c5073cbc855c8d4efac973460
+  path: data/networks_and_trajectories_binary_data_02_15.RData
+- md5: c0311798e823310710c28d20bac8c169
+  path: data/networks_and_trajectories_binary_data_02_20.RData
+outs:
+- md5: e7356fb7ae63d5ce47c063397dd3959f
+  path: metrics/score_based_binary_data_02.json
+  cache: false
+  metric: true
+  persist: false

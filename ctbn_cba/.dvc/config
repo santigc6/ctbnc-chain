@@ -1,0 +1,4 @@
+['remote "myremote"']
+url = /home/alessandro/Documents/.ctbn_cba_ls
+[core]
+remote = myremote

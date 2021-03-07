@@ -1,0 +1,44 @@
+md5: 7d91d76f0f4bbc6320b646eebc4068be
+cmd: Rscript code/max_kl_distribution.R
+deps:
+- md5: 959cfb6f64662c2ed4157c2f5a368624
+  path: code/max_kl_distribution.R
+- md5: f724891165449e9c74d675681d9ce1d6
+  path: data/networks_and_trajectories_binary_data_3.RData
+- md5: 925b7e2b29b12470a63f1268193bc594
+  path: data/networks_and_trajectories_ternary_data_3.RData
+- md5: a3c25366a84d538ed792ded6f376db6b
+  path: data/networks_and_trajectories_binary_data_4.RData
+- md5: d83dd68bf5142362eb3a8e415150b785
+  path: data/networks_and_trajectories_ternary_data_4.RData
+- md5: ed2186ff794c83dd41205cf44875ee97
+  path: data/networks_and_trajectories_binary_data_5.RData
+- md5: 54095e6738facddb6d92599fcdded723
+  path: data/networks_and_trajectories_ternary_data_5.RData
+- md5: 5792fda300857d7fb4f73679c8d7b482
+  path: data/networks_and_trajectories_binary_data_6.RData
+- md5: 7da7638a911eb8ad2f57343ac0944b7e
+  path: data/networks_and_trajectories_ternary_data_6.RData
+- md5: ec6c257e42a5e67dd87142fd93e0b294
+  path: data/networks_and_trajectories_binary_data_10.RData
+- md5: ef9e5951ad702c9c66edcb8e5dd76b4e
+  path: data/networks_and_trajectories_ternary_data_10.RData
+- md5: 9ccc266e141975f34e50a2ad92bf2480
+  path: data/networks_and_trajectories_binary_data_15.RData
+- md5: 0d8623680b7b97404d4bdaa868a80f14
+  path: data/networks_and_trajectories_ternary_data_15.RData
+- md5: 63d3e83d870206819d3b9c9c69048cd2
+  path: data/networks_and_trajectories_binary_data_20.RData
+- md5: d3954ebbb81a4f703ce1e14176e23d13
+  path: data/networks_and_trajectories_ternary_data_20.RData
+outs:
+- md5: 69b47f84c4dcc6679291ec6c399076b5
+  path: data/Ckl_distribution.RData
+  cache: true
+  metric: false
+  persist: false
+- md5: 9cd5b7b0ec11c3a1ef89fe13d3602809
+  path: data/Ckl_distribution.json
+  cache: true
+  metric: false
+  persist: false
