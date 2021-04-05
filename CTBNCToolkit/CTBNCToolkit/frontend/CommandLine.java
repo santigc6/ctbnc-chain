@@ -990,7 +990,7 @@ public class CommandLine {
 				if( this.cVPartitionFile == null || this.cVPartitionFile.isEmpty()) {	// dataset permutation and cutting
 					
 					this.verbosePrint("\t. dataset permutation\n");
-					testSet = CTBNCTestFactory.permuteDataset(testSet);
+					/*testSet = CTBNCTestFactory.permuteDataset(testSet);*/ /* Avoid dataset permutation for chain classifiers */
 					this.verbosePrint("\t. dataset dimension cutting (% = " + this.cutPercentage + ")\n");
 					testSet = CTBNCTestFactory.cutDataset(testSet, this.cutPercentage);
 					
