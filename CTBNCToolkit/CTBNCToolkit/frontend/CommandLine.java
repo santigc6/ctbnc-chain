@@ -140,7 +140,7 @@ public class CommandLine {
 													"\tthis modifier have to be used if you want to test the models over a smaller and randomly chosen part\n" +
 													"\t of the dataset",																						"enabled"},	// cutPercentage
 		{"timeFactor",		"setTimeFactor",		"specify the time factor to use to scale the time column (default value: 1.0)",								"enabled"},	// timeFactor
-		{"training",		"setTrainingSet",		"specify training set to use to lean the models",															"enabled"},	// training
+		{"training",		"setTrainingSet",		"specify training set to use to learn the models",															"enabled"},	// training
 		//?{"testset",			"setTestSet",			"TODO",			"enabled"},	// testset
 		{"rPath",			"setResultsPath",		"specify the directory where generate the results (default path is the DataPath)",							"enabled"},	// rPath
 		{"confidence",		"setConfidence",		"specify the confidence level to use in the performances (default is 90%).\n" +
