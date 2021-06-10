@@ -1,0 +1,11 @@
+Modifiers:
+--CTBNC=CTNB
+--validation=HO,0.75
+--validColumns=IA,IB,IC,VA,VB,VC,SA,SB,SC,PA,PB,PC,QA,QB,QC
+--trjSeparator=M6
+--timeName=timestamp
+--className=M6
+--rPath=results\br\M6
+
+Data path:
+data\energy-tmp
