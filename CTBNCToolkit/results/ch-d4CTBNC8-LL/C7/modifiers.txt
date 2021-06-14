@@ -1,0 +1,11 @@
+Modifiers:
+--CTBNC=CTBNC8-LL
+--validation=HO,0.75
+--validColumns=X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,C1,C2,C3,C4,C5,C6
+--trjSeparator=C7
+--timeName=t
+--className=C7
+--rPath=results\ch-d4CTBNC8-LL\C7
+
+Data path:
+data\d4-tmp
