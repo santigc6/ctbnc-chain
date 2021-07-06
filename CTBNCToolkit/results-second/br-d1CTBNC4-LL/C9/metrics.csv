@@ -1,0 +1,3 @@
+Test;Model;Aggregation;ConfidenceLevel;DatasetDim;KFolds;;Accuracy;;Error;Precision;;Recall;;F-Measure;;PR AUC;;Sensitivity;;Specificity;;TP-Rate;;FP-Rate;;ROC AUC;;Brier;Avg learning time;Var learning time;Avg inference time; Var inference time;
+;;;;;;lower bound;;upper bound;;A;B;A;B;A;B;A;B;A;B;A;B;A;B;A;B;A;B;;;;;;
+210705_0710_Test;M0_CTBNC4-LL;;90%;2000;1;0.608086419225243;0.644;0.678363300568746;0.356;0.644;NaN;1.0;0.0;0.7834549878345498;NaN;0.8220000000000001;0.6779999999999999;1.0;0.0;0.0;1.0;1.0;0.0;1.0;0.0;0.5;0.5;0.2295346923143746;120.048;;7.880000000000005E-4;1.030705600000006E-5;
